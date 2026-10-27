@@ -1,0 +1,92 @@
+
+body {
+  font-family: 'isometria', monospace;
+  background-image: url('https://cdn.britannica.com/26/235926-050-119B7E29/Malcolm-X-1965.jpg');
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 200vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.espacamento {
+  margin: 0 auto;
+  height: 70px;
+}
+
+.calculadora {
+  margin: 0 auto;
+  width: 294px;
+  background-color: green;
+  border: 1px solid #ddd;
+}
+
+.tela {
+  width: 279px;
+  border: 0;
+  border-radius: 5px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  background-color: #202020;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  color: white;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.contas div {
+  background-color: #202020;
+  color: red;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out,
+              background-color 0.2s,
+              box-shadow 0.2s;
+}
+
+.painel-numero {
+  display: inline-block;
+}
+
+.numeros div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  background-color: #202020;
+  padding: 10px;
+  margin: 2px;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out,
+              background-color 0.2s,
+              box-shadow 0.2s;
+}
