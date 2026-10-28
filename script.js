@@ -4,7 +4,7 @@ var input = document.getElementById('tela'),
  
 /*querySelectorAll = um método do JavaScript usado para buscar e capturar vários elementos da sua página HTML de uma só vez, utilizando os seletores do CSS (como classes, IDs ou nomes de tags).*/
   numero = document.querySelectorAll(' .numeros div'),
-
+\\rlk
   conta = document.querySelectorAll(' .contas div'),
   resultado = document.getElementById('resultado'),
   limpar = document.getElementById('limpar'),
